@@ -1,0 +1,14 @@
+Hand wired (for understanding the wiring):
+https://docs.qmk.fm/#/hand_wire
+
+Dasky:
+That's probably a good starting point, you need to understand how the key matrix was wired up.
+If you have a schematic for the pcb it should help with defining the row and column pins.
+
+So the page I linked before has information on setting up a basic firmware using keyboard layout editor and keyboard firmware builder (which seems to up and running again?) but this is probably more useful for working out how to map the physical layout to code. https://docs.qmk.fm/#/understanding_qmk?id=matrix-to-physical-layout-map
+
+https://docs.qmk.fm/#/hardware_avr?id=adding-your-avr-keyboard-to-qmk you also have this.
+
+But using a proton c complicates things a little more.
+
+https://docs.qmk.fm/#/proton_c_conversion?id=converting-a-board-to-use-the-proton-c
